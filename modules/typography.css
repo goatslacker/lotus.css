@@ -1,0 +1,87 @@
+body {
+  background-color: var(--colors-white);
+  color: var(--colors-black);
+  font-family: var(--typography-font);
+  font-size: var(--typography-size);
+  line-height: var(--typography-line-height);
+}
+
+code, pre, kbd, samp {
+  font-family: var(--typography-code);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5em;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+h1, .h1 {
+  font-size: 2em;
+}
+
+h2, .h2 {
+  font-size: 1.5em;
+}
+
+h3, .h3 {
+  font-size: 1.3em;
+}
+
+h4, .h4 {
+  font-size: 1.15em;
+}
+
+h5, .h5 {
+  font-size: 1em;
+}
+
+h6, .h6 {
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+blockquote {
+  border-left: 0.1em solid var(--colors-light-gray);
+  margin: 1.5em 0;
+  padding: 0 1.25em 0 1.24em;
+}
+
+hr {
+  border-color: var(--colors-light-gray);
+  border-style: solid;
+  border-width: 0.1em;
+  margin: 2em 0;
+}
+
+ol ol li {
+  list-style-type: lower-alpha;
+}
+
+ol ol ol li {
+  list-style-type: lower-roman;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+small {
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+
+sub, sup {
+  font-size: 0.6em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}

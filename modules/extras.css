@@ -1,0 +1,60 @@
+.txt-center {
+  text-align: center;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-justify {
+  text-align: justify;
+}
+
+.txt-upper {
+  text-transform: uppercase;
+}
+
+.txt-light {
+  font-weight: 300;
+}
+
+.txt-bold {
+  font-weight: 700;
+}
+
+.txt-lg {
+  font-size: 1.2em;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.fl-right {
+  float: right;
+}
+
+.fl-left {
+  float: left;
+}
+
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.hide {
+  display: none !important;
+}

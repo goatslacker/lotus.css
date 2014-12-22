@@ -1,0 +1,41 @@
+label {
+  margin-bottom: 0.5em;
+}
+
+label, label textarea, label input, label select {
+  display: block;
+}
+
+textarea, input, select {
+  border: 0.1em solid var(--colors-light-gray);
+  padding: 0.5em;
+}
+
+textarea:focus, input:focus, select:focus {
+  border-color: var(--colors-blue);
+}
+
+textarea, input {
+  outline: 0;
+  width: 13em;
+}
+
+select {
+  height: 2.25em;
+  width: 14em;
+}
+
+input[type=checkbox], input[type=radio] {
+  display: inline-block;
+  width: auto;
+}
+
+input[disabled] {
+  color: var(--colors-light-gray);
+}
+
+.form-addon {
+  background-color: #fff;
+  border: 0.1em solid var(--colors-light-gray);
+  padding: 0.5em 1em;
+}

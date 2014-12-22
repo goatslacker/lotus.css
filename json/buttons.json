@@ -1,0 +1,1 @@
+".btn {\n  background-color: var(--colors-dark-gray);\n  border: 0;\n  border-radius: 0.25em;\n  cursor: pointer;\n  display: inline-block;\n  padding: 0.5em 1.5em;\n  outline: 0;\n  text-align: center;\n}\n\n.btn-sm {\n  padding: 0.25em 0.75em;\n}\n\n.btn-lg {\n  padding: 1em 3em;\n}"

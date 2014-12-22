@@ -1,0 +1,26 @@
+:root {
+  --typography-font: 'Open Sans', sans-serif;
+  --typography-code: 'Inconsolata', monospace;
+  --typography-size: 1em;
+  --typography-line-height: 1.5em;
+
+  --grid-gutter-size: 1.25em;
+
+  --colors-dark-gray: #a8b2bd;
+  --colors-light-gray: #e2e5e9;
+  --colors-wash: #ecf0f1;
+  --colors-black: #353535;
+  --colors-red: #ff7772;
+  --colors-green: #67ba72;
+  --colors-yellow: #ffdd69;
+  --colors-blue: #70bde6;
+  --colors-magenta: #bf75ff;
+  --colors-cyan: #92f9f6;
+  --colors-white: #f0f0f0;
+
+  --spacing-xs: 0.5em;
+  --spacing-sm: 1em;
+  --spacing-md: 2em;
+  --spacing-lg: 3em;
+  --spacing-xl: 4em;
+}

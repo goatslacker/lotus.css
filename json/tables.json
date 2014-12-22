@@ -1,0 +1,1 @@
+".table {\n  border-collapse: collapse;\n  border-spacing: 0;\n  width: 100%;\n}\n\n.table th,\n.table td {\n  padding: 0.5em;\n  text-align: left;\n}\n\n.table tbody > :nth-child(2n-1) {\n  background-color: var(--colors-light-gray);\n}"

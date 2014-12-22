@@ -1,0 +1,665 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <style>
+      .box {
+        box-shadow: 0 -2px 0 0 #509dc6 inset;
+      }
+
+      .box:active {
+        background-color: #60add6;
+        box-shadow: 0 2px 0 0 #509dc6 inset;
+      }
+
+      .test .col, .test .col-sm {
+        line-height: 2em;
+        min-height: 2em;
+        text-align: center;
+      }
+
+      .brand {
+        color: #7c66a4;
+        font-family: 'Lucida Grande';
+        font-size: 6em;
+        line-height: 1em;
+        margin-bottom: 0;
+        text-shadow: 0 -1px 0 #000, 0 1px 0 rgba(255, 255, 255, 0.2);
+      }
+
+      @media(max-width: 33em) {
+        .brand {
+          font-size: 4em;
+        }
+      }
+
+      a {
+        color: #353535;
+        text-decoration: none;
+      }
+
+      .features .row {
+        margin-left: -2em;
+      }
+
+      .features .row .col {
+        padding-left: 2em;
+        padding-bottom: 1em;
+      }
+    </style>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Inconsolata' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="dist/lotus.min.css" type="text/css" />
+  </head>
+
+  <body>
+    <header class="sp-lg bg-black">
+      <h1 class="txt-center txt-upper brand">LOTUS</h1>
+      <h2 class="txt-center txt-light-gray txt-light">
+        <small>a small (~1.8k) and powerful css library for the responsive web</small>
+      </h2>
+
+      <div class="txt-center">
+        <a href="#custom" class="btn bg-blue box">Custom Build</a>
+      </div>
+    </header>
+
+    <section class="sp-horiz-lg">
+
+      <div class="sp-vert-lg features">
+        <hr />
+
+        <div class="row">
+          <div class="col c4 cm6 cs12">
+            <h3>Insanely Tiny</h3>
+            <p>
+            At 1.8kb minified + gzip it features all the bells and whistles.
+            You can get it down to 1kb by just including the basic essentials.
+            </p>
+          </div>
+
+          <div class="col c4 cm6 cs12">
+            <h3>Built Responsibly</h3>
+            <p>
+            From phone to tablet to desktop web, Lotus was designed to work
+            on a variety of mediums with no extra fuss.
+            </p>
+          </div>
+
+          <div class="col c4 cm6 cs12">
+            <h3>Fast and Extendable</h3>
+            <p>
+            Rules are set at low specificity levels making the styles easy to
+            override. Lotus is stylish yet unopinionated leaving the design
+            to you.
+            </p>
+          </div>
+
+          <div class="col c4 cm6 cs12">
+            <h3>Cross Browser</h3>
+            <p>
+            Works on Chrome, Firefox, Safari, Internet Explorer, Mobile Safari,
+            Android Browser, and Opera Mini.
+            </p>
+          </div>
+
+          <div class="col c4 cm6 cs12">
+            <h3>Sane Syntax</h3>
+            <p>
+            Concise yet self-explanatory class names that are explicit,
+            and easy to remember.
+            </p>
+          </div>
+
+          <div class="col c4 cm6 cs12">
+            <h3>In Action</h3>
+            <p>
+            This demo site is built using Lotus.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div>
+        <h1 class="txt-center">Typography</h1>
+
+        <hr />
+
+        <p>
+        <strong>Lotus</strong> draws its typography inspiration from many sources.
+        The main font used is <strong>Open Sans</strong> and the paragraphs have
+        a base font size of <strong>16px</strong> and a line-height of
+        <strong>24px</strong>. This can all be configured via the custom build tool.
+        </p>
+
+        <br />
+
+        <div class="row">
+          <div class="col c4">
+            <h1>Heading &lt;h1&gt;</h1>
+            <h2>Heading &lt;h2&gt;</h2>
+            <h3>Heading &lt;h3&gt;</h3>
+            <h4>Heading &lt;h4&gt;</h4>
+            <h5>Heading &lt;h5&gt;</h5>
+            <h6>Heading &lt;h6&gt;</h6>
+
+            <br />
+            <br />
+
+            <h4>A quote!</h4>
+            <blockquote>
+              <p>Lotus is tiny and feisty. There's a lot of style for a little bit of bytes.</p>
+              <cite>&mdash; Doge</cite>
+            </blockquote>
+          </div>
+
+          <div class="col c4"></div>
+
+          <div class="col c4">
+            <div>
+              <abbr>abbr</abbr>
+            </div>
+
+            <div>
+              <b>Bold Text</b>
+            </div>
+
+            <div>
+              <code>// this is some code</code>
+            </div>
+
+            <div>
+              <del>Deleted</del>
+            </div>
+
+            <div>
+              <em>Emphasis</em>
+            </div>
+
+            <div>
+              <i>Italics</i>
+            </div>
+
+            <div>
+              <kbd>Ctrl + Alt + Del</kbd>
+            </div>
+
+            <div>
+              <mark>Marked Text</mark>
+            </div>
+
+            <div>
+              <samp>This is a sample</samp>
+            </div>
+
+            <div>
+              <small>I am really small</small>
+            </div>
+
+            <div>
+              <span>123<sup>super</sup></span>
+            </div>
+
+            <div>
+              <span>123<sub>sub</sub></span>
+            </div>
+
+            <div>
+              <strong>Strong Text</strong>
+            </div>
+
+            <div>
+              <var>Variable</var>
+            </div>
+
+            <div>
+              Normal text <span class="txt-light">light text</span>
+            </div>
+
+          </div>
+        </div>
+
+        <br />
+
+        <h2>Lists</h2>
+
+        <hr />
+
+        <div class="row">
+          <div class="col c6">
+            <h5>Features</h5>
+
+            <ul>
+              <li>Really, really, small</li>
+              <li>
+                It Just Works
+                <ul>
+                  <li>Responsive</li>
+                  <li>Cross Browser Compatible</li>
+                </ul>
+              </li>
+              <li>
+                Lots of Modules
+                <ul>
+                  <li>
+                    Typography
+                    <ul>
+                      <li>OpenSans font</li>
+                    </ul>
+                  </li>
+                  <li>Grid</li>
+                  <li>Buttons</li>
+                  <li>Forms</li>
+                  <li>and More</li>
+                </ul>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="col c6">
+            <h5>How to Use</h5>
+
+            <ol>
+              <li>Create your own custom build below</li>
+              <li>
+                Check the boxes for the modules you want
+                <ol>
+                  <li>Grid is a good idea</li>
+                  <li>Typograhy is also good too</li>
+                  <li>Buttons and Forms seem solid</li>
+                </ol>
+              </li>
+              <li>
+                ???
+                <ol>
+                  <li>????</li>
+                  <li>?????</li>
+                  <li>??????</li>
+                  <li>
+                    ?
+                    <ol>
+                      <li>!</li>
+                      <li>!!</li>
+                      <li>!!!</li>
+                      <li>!!!!!!!1</li>
+                    </ol>
+                  </li>
+                </ol>
+              </li>
+              <li>Profit</li>
+            </ol>
+          </div>
+        </div>
+
+        <br />
+
+        <h2>Paragraphs</h2>
+
+        <hr />
+
+        <h3>Marseilles &mdash; The Arrival.</h3>
+
+        <p>
+        On the 24th of February, 1810, the look-out at Notre-Dame de la Garde signalled the three-master, the Pharaon from Smyrna, Trieste, and Naples.
+        </p>
+
+        <p>
+        As usual, a pilot put off immediately, and rounding the Chateau d'If, got on board the vessel between Cape Morgion and Rion island.
+        </p>
+
+        <p>
+        Immediately, and according to custom, the ramparts of Fort Saint-Jean were covered with spectators; it is always an event at Marseilles for a ship to come into port, especially when this ship, like the Pharaon, has been built, rigged, and laden at the old Phocee docks, and belongs to an owner of the city.
+        </p>
+
+        <blockquote>
+          <h4>When the young man on board saw this person approach, he left his station by the pilot, and, hat in hand, leaned over the ship's bulwarks.</h4>
+        </blockquote>
+
+        <p>
+        He was a fine, tall, slim young fellow of eighteen or twenty, with black eyes, and hair as dark as a raven's wing; and his whole appearance bespoke that calmness and resolution peculiar to men accustomed from their cradle to contend with danger.
+        </p>
+
+        <p>
+        "Ah, is it you, Dantes?" cried the man in the skiff. "What's the matter? and why have you such an air of sadness aboard?"
+        </p>
+
+        <br />
+
+        <h3>Father and Son</h3>
+
+        <p>
+        We will leave Danglars struggling with the demon of hatred, and endeavoring to insinuate in the ear of the shipowner some evil suspicions against his comrade, and follow Dantes, who, after having traversed La Canebiere, took the Rue de Noailles, and entering a small house, on the left of the Allees de Meillan, rapidly ascended four flights of a dark staircase, holding the baluster with one hand, while with the other he repressed the beatings of his heart, and paused before a half-open door, from which he could see the whole of a small room.
+        </p>
+
+      </div>
+
+      <div class="sp-vert-lg test">
+        <h1 class="txt-center">Grid</h1>
+
+        <hr />
+
+        <div class="row sp-vert-sm">
+          <div class="col bg-light-gray c1"></div>
+          <div class="col bg-light-gray c11"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col bg-light-gray c2"></div>
+          <div class="col bg-light-gray c10"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col bg-light-gray c3"></div>
+          <div class="col bg-light-gray c9"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col bg-light-gray c4"></div>
+          <div class="col bg-light-gray c8"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col bg-light-gray c5"></div>
+          <div class="col bg-light-gray c7"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col bg-light-gray c6"></div>
+          <div class="col bg-light-gray c6"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col c6 bg-dark-gray test"></div>
+          <div class="col c3"></div>
+          <div class="col c3 bg-light-gray test"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col-sm c4"></div>
+          <div class="col-sm c4 bg-dark-gray test"></div>
+          <div class="col-sm c4"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col-sm c3 bg-dark-gray">
+            <div class="sp-sm">&nbsp;</div>
+          </div>
+          <div class="col-sm c3 bg-light-gray"></div>
+          <div class="col-sm c3 bg-dark-gray"></div>
+          <div class="col-sm c3 bg-light-gray"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col-sm c4 bg-light-gray"></div>
+          <div class="col-sm c2 bg-light-gray"></div>
+          <div class="col-sm c6 bg-dark-gray"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col c12 bg-light-gray"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col-sm c6 bg-dark-gray"></div>
+          <div class="col-sm c3 bg-light-gray"></div>
+          <div class="col-sm c3 bg-light-gray"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col c2 bg-light-gray"></div>
+          <div class="col c2 bg-light-gray"></div>
+          <div class="col c4 bg-dark-gray"></div>
+          <div class="col c2 bg-light-gray"></div>
+          <div class="col c2 bg-dark-gray"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col c1 bg-light-gray"></div>
+          <div class="col c10 bg-light-gray"></div>
+          <div class="col c1 bg-light-gray"></div>
+        </div>
+
+        <div class="row sp-vert-sm">
+          <div class="col c1 bg-light-gray"></div>
+          <div class="col c1 bg-light-gray"></div>
+          <div class="col c1 bg-light-gray"></div>
+          <div class="col c1 bg-light-gray"></div>
+          <div class="col c4 bg-light-gray"></div>
+          <div class="col c2 bg-light-gray"></div>
+          <div class="col c2 bg-light-gray"></div>
+        </div>
+      </div>
+
+      <div>
+        <h1 class="txt-center">Responsive Extras</h1>
+        <hr />
+
+        <div class="row sp-vert-sm test">
+          <h5 class="txt-center txt-light">
+            3 columns which vary on screen size
+          <h5>
+          <div class="col bg-light-gray c4 cm8 cs6"></div>
+          <div class="col bg-light-gray c4 cm2 cs2"></div>
+          <div class="col bg-light-gray c4 cm2 cs4"></div>
+        </div>
+
+        <h5 class="txt-light">show/hide helpers</h5>
+
+        <div class="">
+          <div class="show-lg">
+            .show-lg
+          </div>
+          <div class="hide-lg">
+            .hide-lg
+          </div>
+          <div class="show-md">
+            .show-md
+          </div>
+          <div class="hide-md">
+            .hide-md
+          </div>
+          <div class="show-sm">
+            .show-sm
+          </div>
+          <div class="hide-sm">
+            .hide-sm
+          </div>
+        </div>
+
+      </div>
+
+      <div>
+        <h1 class="txt-center">Buttons</h1>
+        <hr />
+
+        <div class="sp-vert-sm">
+          <button class="btn btn-lg">Large Button</button>
+        </div>
+
+        <div class="sp-vert-sm">
+          <button class="btn">Medium Button</button>
+        </div>
+
+        <div class="sp-vert-sm">
+          <button class="btn btn-sm">Small Button</button>
+        </div>
+      </div>
+
+      <div class="sp-vert-lg">
+        <h1 class="txt-center">Forms</h1>
+        <hr />
+
+        <form>
+          <p>Form Controls</p>
+
+          <label>
+            <input type="text" placeholder="text input" />
+          </label>
+
+          <label>
+            <input type="password" placeholder="Password" />
+          </label>
+
+          <label>
+            <input type="checkbox" checked="checked" />
+            Checkbox 1
+          </label>
+          <label>
+            <input type="checkbox" />
+            Checkbox 2
+          </label>
+
+          <label>
+            <input type="checkbox" />
+            Checkbox 1
+            &nbsp;
+            <input type="checkbox" checked="checked" />
+            Checkbox 2
+            &nbsp;
+            <input type="checkbox" />
+            Checkbox 3
+            &nbsp;
+            <input type="checkbox" />
+            Checkbox 4
+          </label>
+
+          <label>
+            <input type="radio" name="radio" checked="checked" />
+            Option 1
+          </label>
+          <label>
+            <input type="radio" name="radio" />
+            Option 2
+          </label>
+
+          <label>
+            <select>
+              <option>Select One</option>
+              <option>Typography</option>
+              <option>Grid</option>
+              <option>Buttons</option>
+              <option>Forms</option>
+            </select>
+          </label>
+
+          <label>
+            <textarea rows="4"></textarea>
+          </label>
+
+          <label>
+            <input type="text" value="Disabled Text" disabled="disabled" />
+          </label>
+
+          <br />
+
+          <p>
+          A basic sign-in form
+          </p>
+
+          <label>
+            Email
+            <input type="email" name="user-email" class="width-50" />
+          </label>
+          <label>
+            Password
+            <input type="password" name="user-password" class="width-50" />
+          </label>
+          <p>
+            <button class="btn bg-green btn-sm">Log in</button>
+            <button class="btn btn-sm">Cancel</button>
+          </p>
+
+          <br />
+
+          <p>Form Addons</p>
+
+          <span class="form-addon">$</span><input type="text" value="prefix" />
+
+          <br />
+          <br />
+
+          <input type="text" value="suffix" /><span class="form-addon">$</span>
+
+        </form>
+
+      </div>
+
+      <div class="sp-vert-lg">
+        <h1 class="txt-center">Tables</h1>
+        <hr />
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Fruits</th>
+              <th>Veggies</th>
+              <th>Colors</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Bananas</td>
+              <td>Cucumber</td>
+              <td>Pink</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Grapes</td>
+              <td>Onion</td>
+              <td>Purple</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Pineapple</td>
+              <td>Carrot</td>
+              <td>Yellow</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="txt-center">
+        <h1 class="txt-center">Colors</h1>
+        <hr />
+        <div class="sp-vert-sm">&nbsp;</div>
+        <div class="btn btn-lg bg-red txt-light-gray">R</div>
+        <div class="btn btn-lg bg-green txt-light-gray">G</div>
+        <div class="btn btn-lg bg-blue txt-light-gray">B</div>
+        <div class="btn btn-lg bg-cyan txt-dark-gray">C</div>
+        <div class="btn btn-lg bg-magenta txt-light-gray">M</div>
+        <div class="btn btn-lg bg-yellow txt-dark-gray">Y</div>
+        <div class="btn btn-lg bg-black txt-dark-gray">K</div>
+      </div>
+
+      <div class="sp-vert-lg">
+        <h1 class="txt-center">Extras</h1>
+
+        <hr />
+
+        <div class="txt-center">.txt-center</div>
+        <div class="txt-right">.txt-right</div>
+        <div class="txt-upper">.txt-upper</div>
+        <div class="txt-light">.txt-light</div>
+        <div class="txt-bold">.txt-bold</div>
+        <div class="clearfix">
+          <div class="fl-left">.fl-left</div>
+          <div class="fl-right">.fl-right</div>
+        </div>
+      </div>
+
+      <a name="custom"></a>
+      <div class="sp-vert-lg">
+        <h1 class="txt-center">Custom Build</h1>
+
+        <hr />
+
+        <div id="custom-build"></div>
+      </div>
+    </section>
+  </body>
+  <script type="application/javascript" src="dist/custom.js"></script>
+</html>

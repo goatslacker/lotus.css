@@ -1,0 +1,18 @@
+.btn {
+  background-color: var(--colors-dark-gray);
+  border: 0;
+  border-radius: 0.25em;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  outline: 0;
+  text-align: center;
+}
+
+.btn-sm {
+  padding: 0.25em 0.75em;
+}
+
+.btn-lg {
+  padding: 1em 3em;
+}
