@@ -1,16 +1,17 @@
 var browserify = require('browserify')
+var calc = require('rework-calc')
 var csso = require('gulp-csso')
 var gulp = require('gulp')
 var imprt = require('rework-import')
 var reactify = require('reactify')
 var rename = require('gulp-rename')
 var rework = require('gulp-rework')
+var rmComments = require('rework-comments')
 var source = require('vinyl-source-stream')
 var streamify = require('gulp-streamify')
 var through = require('through2')
+var uglify = require('gulp-uglify')
 var vars = require('rework-vars')
-var calc = require('rework-calc')
-var rmComments = require('rework-comments')
 
 function gulpToJson(f) {
   return through.obj(function (file, encoding, callback) {
@@ -62,6 +63,7 @@ gulp.task('gh-pages', ['json'], function () {
     })
     .bundle()
     .pipe(source('custom.js'))
+    .pipe(streamify(uglify()))
     .pipe(gulp.dest('./dist'))
 })
 
