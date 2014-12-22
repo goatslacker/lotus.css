@@ -12,6 +12,43 @@ Check out a demo here: http://goatslacker.github.io/lotus.css/
 * Cross Browser
 * Low specificity
 
+## Using the CLI
+
+```
+npm install lotus.css
+```
+
+Run `lotus` in your project's directory. A minified lotus build will be sent to process.stdout.
+
+You can configure what you want in your lotus build via `package.json`
+
+Sample:
+
+```json
+{
+  "lotus.css": {
+    "modules": {
+      "normalize": true,
+      "typography": true,
+      "grid": true,
+      "buttons": true,
+      "colors": true,
+      "spacing": true,
+      "tables": true,
+      "extras": true
+    },
+    "colors": {
+      "black": "#636669",
+      "dark-gray": "#636669",
+      "blue": "#6297DE",
+      "green": "#9BCFA1"
+    }
+  }
+}
+```
+
+For a reference of configurable variables [see here](https://github.com/goatslacker/lotus.css/blob/gh-pages/modules/variables.css).
+
 ## Another CSS Framework?
 
 There are many amazing css frameworks out there and everything from really minimalist to an all inclusive large framework.
