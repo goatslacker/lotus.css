@@ -33,6 +33,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "buttons",
+    "css",
+    "forms",
+    "front-end",
+    "grid",
+    "library",
+    "mobile",
+    "responsive",
+    "styles",
+    "typography",
+    "web"
+  ],
   "author": "Josh Perez <josh@goatslacker.com>",
   "repository": {
     "type": "git",
